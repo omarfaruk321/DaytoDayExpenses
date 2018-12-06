@@ -131,6 +131,7 @@ public class DailyFragment extends Fragment {
                 String[] arrOfSt=date.split(" ");
                 dailydateTv.setText(arrOfSt[1]);
                 dayofweek.setText(dayy);
+
                 currentmonth.setText(arrOfSt[2]);
                 currentyear.setText(arrOfSt[3]);
             }
