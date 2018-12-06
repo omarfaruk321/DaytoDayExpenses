@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".fragment.MonthlyFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:weightSum="11"
+        android:background="#0f8587"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/left_icon"
+            android:layout_weight=".5"
+            android:layout_width="wrap_content"
+            android:background="#0f8587"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_chevron_left_black_24dp"/>
+        <Button
+            android:id="@+id/monthlyBt"
+            android:layout_weight="10"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#0f8587"
+            android:text="October 2018"
+            android:textAllCaps="false"/>
+        <ImageButton
+            android:id="@+id/right_icon"
+            android:layout_weight=".5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#0f8587"
+            android:src="@drawable/ic_chevron_right_black_24dp"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/omar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Monthly Income" />
+
+</LinearLayout>
