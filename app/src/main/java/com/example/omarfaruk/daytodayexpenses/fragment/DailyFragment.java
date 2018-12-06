@@ -116,6 +116,7 @@ public class DailyFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 i=0;
+
                 i++;
                 int year=calendar.get(Calendar.YEAR);
                 int month=calendar.get(Calendar.MONTH);
